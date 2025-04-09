@@ -1,0 +1,20 @@
+# latexmkrc (Perl syntax)
+
+$latex    = 'uplatex -interaction=nonstopmode -halt-on-error -synctex=1 -recorder';
+$bibtex   = 'upbibtex %O %B';
+$dvipdf   = 'dvipdfmx -o %D %S';
+$pdf_mode = 3;
+
+# 出力ディレクトリ（絶対パスで渡す、Docker用）
+warn "DOC env = '$ENV{DOC}'\n";
+$out_dir = "/pdf/$ENV{DOCNAME}";
+
+# サイレントにする
+$silence_logfile_warnings = 1;
+
+# 繰り返し最大回数
+$max_repeat = 5;
+
+# 自動クリーンアップ除外ファイル
+$clean_ext = 'synctex.gz';
+

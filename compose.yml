@@ -1,0 +1,7 @@
+services:
+  texlive:
+    build: .
+    volumes:
+      - ./tex:/tex
+      - ./pdf:/pdf
+    tty: true

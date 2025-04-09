@@ -1,0 +1,8 @@
+/pdf/*
+!/pdf/template
+!/pdf/template/.gitkeep
+
+/tex/*
+!/tex/template
+!/tex/compile.sh
+!/tex/latexmkrc

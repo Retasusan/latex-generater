@@ -6,3 +6,4 @@
 !/tex/template
 !/tex/compile.sh
 !/tex/latexmkrc
+.DS_Store

@@ -6,7 +6,6 @@ $dvipdf   = 'dvipdfmx -o %D %S';
 $pdf_mode = 3;
 
 # 出力ディレクトリ（絶対パスで渡す、Docker用）
-warn "DOC env = '$ENV{DOC}'\n";
 $out_dir = "/pdf/$ENV{DOCNAME}";
 
 # サイレントにする

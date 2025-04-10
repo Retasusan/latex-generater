@@ -1,4 +1,4 @@
-# LATEX_generater
+# TeX-PDF-Converter
 
 A lightweight and containerized LaTeX document compiler powered by [Docker](https://www.docker.com/) and [latexmk](https://ctan.org/pkg/latexmk).  
 Designed for reproducible builds and clean outputs with support for Japanese documents using `uplatex` and `upbibtex`.
